@@ -23,3 +23,6 @@ eq("foo", "FOO", caseSensitive: false)
 let (min, max) = minmax([20, 30, -1, 0])
 min
 max
+
+"10".toInt()
+"foo".toInt()
